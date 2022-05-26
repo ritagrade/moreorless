@@ -1,16 +1,7 @@
 title: aritagrade
+email: aritagrade@gmail.com
 description: "Portfolio of product designer Rita Grade"
-
 baseurl: "/moreorless"
 url: ""
-
 github_username:  ritagrade
-email: aritagrade@gmail.com
-tel: +351 910 000 000
-address: Lisbon, Portugal
-timezone: Europe/Lisbon
-
-
-plugins:
-  - jekyll-feed
 
