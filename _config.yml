@@ -9,3 +9,20 @@ theme: minima
 plugins:
   - jekyll-feed
 
+image_serve_path: "/moreorless/assets/images"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+sass:
+    style: compressed
+
+github_username:  ritagrade
+email: aritagrade@gmail.com
+tel: +351 910 000 000
+address: Lisbon, Portugal
+timezone: Europe/Lisbon
+year: 2021
+sitemap: true
