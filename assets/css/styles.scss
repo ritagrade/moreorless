@@ -1,21 +1,22 @@
 ---
 ---
 
-@import
-    "main",
-    "site/base/mixins-functions",
-    "site/base/media-queries",
-    "site/base/variables",
-    "site/base/grid",
-    "site/base/forms",
-    "site/base/typo",
-    "site/base/links",
-    "site/base/button",
-    "site/components/navigation",
-    "site/components/footer",
-    "site/components/portfolio",
-    "site/components/projects",
-    "site/components/about",
-    "site/components/homepage",
-    "site/components/project",
-    "site/components/contact";
+@import ;
+@import "main";
+@import "site/base/mixins-functions";
+@import "site/base/media-queries";
+@import "site/base/variables";
+@import "site/base/grid";
+@import "site/base/forms";
+@import "site/base/typo";
+@import "site/base/links";
+@import "site/base/button";
+
+@import "site/components/navigation";
+@import "site/components/footer";
+@import "site/components/portfolio";
+@import "site/components/projects";
+@import "site/components/about";
+@import "site/components/homepage";
+@import "site/components/project";
+@import "site/components/contact";
