@@ -9,3 +9,8 @@ email: aritagrade@gmail.com
 tel: +351 910 000 000
 address: Lisbon, Portugal
 timezone: Europe/Lisbon
+
+
+plugins:
+  - jekyll-feed
+
