@@ -17,7 +17,8 @@ collections:
     permalink: /projects/:path/
 
 sass:
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 
 github_username:  ritagrade
 email: aritagrade@gmail.com
