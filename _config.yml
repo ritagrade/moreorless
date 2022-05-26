@@ -4,12 +4,8 @@ email: aritagrade@gmail.com
 baseurl: "/moreorless" 
 url: ""
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
 
-image_serve_path: "/moreorless/assets/images"
+image_serve_path: "/{{ site.baseurl }}/assets/images"
 
 collections:
   projects:
