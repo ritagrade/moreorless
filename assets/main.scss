@@ -1,7 +1,8 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "main";
+@import "maindomundo";
 @import "site/base/mixins-functions";
 @import "site/base/media-queries";
 @import "site/base/variables";

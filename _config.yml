@@ -1,20 +1,8 @@
-
 title: aritagrade
-email: aritagrade@gmail.com
-baseurl: "/moreorless" 
+description: "Portfolio of product designer Rita Grade"
+
+baseurl: "/moreorless"
 url: ""
-
-
-image_serve_path: "/{{ site.baseurl }}/assets/images"
-
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
-
-sass:
-  sass_dir: _sass
-  style: compressed
 
 github_username:  ritagrade
 email: aritagrade@gmail.com
@@ -23,3 +11,40 @@ address: Lisbon, Portugal
 timezone: Europe/Lisbon
 year: 2021
 sitemap: true
+
+social-username:
+  linkedin: "argdesinger"
+  github: "ritagrade"
+  behance: "argdesinger"
+  dribbble: "argdesinger"
+
+permalink: /:title/
+
+image_serve_path: "/moreorless/assets/images" # <img src="{{ site.image_serve_path }}/projects/img.jpg">
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "fonts"
+    values:
+      layout: "font"
+
+sass:
+    sass_dir: _sass
+    style: :compressed
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+  
