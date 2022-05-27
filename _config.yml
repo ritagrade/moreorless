@@ -20,12 +20,15 @@ social-username:
 
 permalink: /:title/
 
-image_serve_path: "/moreorless/assets/images" # <img src="{{ site.image_serve_path }}/projects/img.jpg">
+image_serve_path: "/{{ site.baseurl }}/assets/images" # <img src="{{ site.image_serve_path }}/projects/img.jpg">
 
 collections:
   projects:
     output: true
     permalink: /projects/:path/
+  fonts:
+    output: true
+    permalink: /fonts/:path/
 
 defaults:
   - scope:
@@ -46,5 +49,3 @@ sass:
 theme: minima
 plugins:
   - jekyll-feed
-
-  
